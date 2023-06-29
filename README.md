@@ -1,39 +1,45 @@
-Budget App
+# Budget App
 
 The Budget App is a simple command-line application that allows you to manage your budget by creating and managing different spending categories. You can track your expenses, add funds, withdraw funds, transfer funds between categories, and generate spending charts.
 
-Features
+## Features
 
-View Categories: Display the list of categories and their current balances.
-Add Funds to a Category: Add funds to a specific category.
-Withdraw Funds from a Category: Withdraw funds from a specific category.
-Transfer Funds between Categories: Transfer funds from one category to another.
-Create Spending Chart: Generate a chart showing the percentage of spending in each category.
-Exit: Quit the application.
-Getting Started
+- View Categories: Display the list of categories and their current balances.
+- Add Funds to a Category: Add funds to a specific category.
+- Withdraw Funds from a Category: Withdraw funds from a specific category.
+- Transfer Funds between Categories: Transfer funds from one category to another.
+- Create Spending Chart: Generate a chart showing the percentage of spending in each category.
+- Exit: Quit the application.
 
-Clone the repository or download the source code.
-Make sure you have Python 3 installed on your system.
-Install the required dependencies by running the following command:
-Copy code
-pip install -r requirements.txt
-Run the budget app by executing the following command:
-css
-Copy code
-python main.py
-Follow the on-screen instructions to interact with the budget app and manage your categories and funds.
-Usage
+## Getting Started
+
+1. Clone the repository or download the source code.
+2. Make sure you have Python 3 installed on your system.
+3. Install the required dependencies by running the following command:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Run the budget app by executing the following command:
+
+   ```
+   python main.py
+   ```
+
+5. Follow the on-screen instructions to interact with the budget app and manage your categories and funds.
+
+## Usage
 
 Upon running the budget app, you will be presented with a menu of options to choose from. Simply enter the number corresponding to the desired option and follow the prompts to perform the corresponding action.
 
 Note: The budget app supports both integer and decimal values for adding, withdrawing, and transferring funds.
 
-Example
+## Example
 
 Here's an example usage scenario of the budget app:
 
-markdown
-Copy code
+```
 ************ Budget App ************
 1. View Categories
 2. Add Funds to a Category
@@ -117,10 +123,15 @@ Percentage spent by category
 Select an option: 0
 
 Exiting the Budget App.
-Testing
+```
 
-The budget app includes a separate unit testing module (test_module.py) to ensure the correctness of its functionality. You can run the tests by executing the following command:
+## Testing
 
-Copy code
+The budget app includes a separate unit testing module (`test_module.py`) to ensure the correctness of its functionality. You can run the tests by executing the following command:
+
+```
 python test_module.py
+```
+
 Running the tests will validate various aspects of the budget app, such as depositing funds, withdrawing funds, transferring
+
